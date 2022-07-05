@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^5.1.6"
+  },
+  "scripts": {
+    "start": "lerna run start",
+    "bootstrap": "lerna bootstrap",
+    "build:react": "lerna run build --scope=@rj/react --stream"
+  }
+}

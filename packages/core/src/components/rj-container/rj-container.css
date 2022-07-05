@@ -1,0 +1,9 @@
+:host {
+  display: inline;
+}
+
+:host(.full-width) {
+  display: flex;
+  padding: 0 16px;
+  width: 100%;
+}

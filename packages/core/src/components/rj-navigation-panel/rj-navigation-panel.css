@@ -1,0 +1,8 @@
+@import "../../styles/normalize.css";
+
+:host {
+  display: flex;
+  background-color: #F4F4F4;
+  border-bottom: 1px solid #000;
+  align-items: center;
+}
